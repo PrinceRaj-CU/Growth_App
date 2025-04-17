@@ -504,6 +504,24 @@ img{
         font-size: 1.1rem;
     }
 
+    .footer-grid .card form {
+        display: flex;
+        flex-direction: column;
+        /* align-items: stretch; */
+    }
+
+    .footer input[type='email'] {
+        width: 100%;
+        padding: 20px;
+        margin: 5px 0;
+    }
+
+    .footer-grid .card form button {
+        position: static;
+        padding: 20px;
+        width: 100%;
+        margin: 5px 0 0 0;
+    }
 }
 
 @media (max-width: 500px){
